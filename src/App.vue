@@ -11,7 +11,7 @@
 
 <script>
 require("dotenv").config()
-let apikey = process.env.API_KEY
+let apikey = process.env.VUE_APP_API_KEY
 import Search from "./components/search"
 import Preview from "./components/preview"
 export default {
