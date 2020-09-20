@@ -41,16 +41,16 @@ export default {
       if (query != "") {
         this.gifs = []
         this.isLoading = true
-        let searchUrl = `https://api.giphy.com/v1/gifs/search?api_key=${apikey}&q=${query}`
+        let searchUrl = `https://api.giphy.com/v1/gifs/search?api_key=${apikey}&q=${query}&limit=30`
         this.doQuery(searchUrl)
       } else if (query == "") {
-        let allUrl = `https://api.giphy.com/v1/gifs/trending?api_key=${apikey}`
+        let allUrl = `https://api.giphy.com/v1/gifs/trending?api_key=${apikey}&limit=30`
         this.doQuery(allUrl)
       }
     },
   },
   created() {
-    let url = `https://api.giphy.com/v1/gifs/trending?api_key=${apikey}`
+    let url = `https://api.giphy.com/v1/gifs/trending?api_key=${apikey}&limit=30`
     this.doQuery(url)
   },
 }
