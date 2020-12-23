@@ -4,7 +4,7 @@ Live Demo : https://talhak15-giphy.netlify.app
 
 Example about using **giphy api** with vue
 
-Don't forget to put your own **api_key** instead of **"YOUR_API_KEY"** (src/App.vue)
+Don't forget to put your own **api_key** instead of **process.env.VUE_APP_API_KEY** (src/App.vue)
 
 ## Project setup
 
