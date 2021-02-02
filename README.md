@@ -1,6 +1,6 @@
 # Search Gifs in Giphy
 
-Live Demo : https://talhak15-giphy.netlify.app
+Live Demo : https://talhabw-giphy.netlify.app
 
 Example about using **giphy api** with vue
 
